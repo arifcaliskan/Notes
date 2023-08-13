@@ -1,17 +1,19 @@
 import React from "react"
 import Navbar from "./components/Navbar"
-import Cards from "./components/Cards"
 import Form from "./components/Form"
 
 function App() {
 
   return (
-    <>
-      <Navbar />
-      <p>Hello</p>
-      <Cards />
-      <Form />
-    </>
+    <div>
+      <div className="bg-sky-950">
+        <Navbar />
+      </div>
+     
+      <div className="container mx-auto flex justify-center flex-col">
+        <Form />
+      </div>
+    </div>
   )
 }
 
