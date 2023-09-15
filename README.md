@@ -1,8 +1,10 @@
-# React + Vite
+# React Notes (Todo) App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## React + Firebase + Tailwind + Vite Is Used for this project.  
 
-Currently, two official plugins are available:
+It is a CRUD Application meaning it allows you to;
+Create new Note and push it to Firebase Firestore
+Read and Update The notes
+Delete the Individual Note or All Notes at once. 
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Deployed to Vercel 
